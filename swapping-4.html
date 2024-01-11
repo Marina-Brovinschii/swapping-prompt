@@ -1,0 +1,15 @@
+<script>
+    let seats = ['John', 'Marry', 'Peter', 'Jane']
+
+    let numberSeats = +prompt("Introduceti numarul care necesita modificat, de la 0 la 3: ")
+
+    alert("Numarul locului care necesita modificat este " + numberSeats)
+
+    if (numberSeats >= 0 && numberSeats <= 3) {
+        let newNumber = +prompt("Introduceti numarul cu care il v-om inlocui: ")
+//           ??? 
+            alert("Locurile dupa modificare: " + seats)
+        } else {
+            alert("Numarul locului introdus nu este valid")
+        }
+</script>
